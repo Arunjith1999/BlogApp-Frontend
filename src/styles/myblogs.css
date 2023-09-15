@@ -1,0 +1,28 @@
+.view-my-blog{
+    border-radius: 8px;
+    background-color: cornflowerblue;
+    border: none;
+    color: aliceblue;
+    padding: 5px;
+}
+.view-my-blog:hover{
+    background-color: blue;
+}
+.edit-my-blog{
+    border-radius: 8px;
+    background-color: green;
+    border: none;
+    color: aliceblue;
+}
+.edit-my-blog:hover{
+    background-color: darkgreen;
+}
+.delete-my-blog{
+    border-radius: 8px;
+    background-color: red;
+    border: none;
+    color: aliceblue;
+}
+.delete-my-blog:hover{
+    background-color: darkred;
+}

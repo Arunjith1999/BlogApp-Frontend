@@ -1,0 +1,28 @@
+.author{
+    color: blue;
+}
+.close-btn{
+    background-color: transparent;
+    width: 30px;
+    border:none;
+    color: grey;
+}
+.close-btn:hover{
+    background-color: red;
+    color: white;
+}
+.blog-title{
+    font-weight: bold;
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+.comment-field{
+    border-radius: 10px;
+    margin-bottom: 2px;
+    margin-left: 6px;
+    width: 98%;
+    border-color: cornflowerblue;
+}
+.comment-field:focus{
+    border: none;
+}

@@ -1,0 +1,86 @@
+.blog-input-box {
+    background-color: white;
+    padding: 22px;
+    border: 1px solid #ccc;
+    margin: 10px;
+   
+  }
+  
+  .blog-input-box input[type="text"]
+  {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px  solid blue;
+    
+  }
+  .blog-input-box input[type="text"]:focus {
+    outline: none;
+    border-bottom: 2px  solid blue;
+
+  
+  }
+
+  .blog-input-box textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .blog-input-box textarea:focus{
+    outline: none;
+  }
+ .blog-save-btn{
+    padding: 10px;
+    width: 80px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+
+ }
+ .blog-save-btn:hover{
+    background-color: blue;
+ }
+ .all-blogs{
+    background-color: white;
+    padding: 22px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 10px;
+ }
+ .view-btn{
+    padding: 5px;
+    width: 100px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+ }
+ .view-btn:hover{
+    background-color: blue;
+ }
+
+ /* CSS for the pagination container */
+.pagination-container {
+   display: flex; /* Use flexbox to arrange items horizontally */
+   align-items: center; /* Vertically align items in the center */
+   justify-content: space-between;
+   margin-top: 20px;
+}
+ 
+ /* CSS for the previous and next buttons */
+ .previous,
+ .next {
+   background-color: cornflowerblue;
+   padding: 5px 10px;
+   border-radius: 5px;
+   margin: 0; /* Remove any default margins */
+ }
+ .read-more-btn{
+   border:none;
+   color:'red';
+   background-color: transparent;
+ }

@@ -1,0 +1,73 @@
+
+.centered-button{
+
+    background-color: cornflowerblue;
+    color: white;
+     border-radius:20px;
+     border: 0px;
+     width: 100px;
+     height: 38px;
+     display: block;
+     margin: 0 auto;
+   }
+   .centered-button:hover{
+    background-color: blue;
+    
+   }
+   .form-container{
+    background: linear-gradient(to bottom, #ffffff, #87CEEB);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    transition: box-shadow 0.5s ease;
+     width:  auto;
+     margin: 0 auto;
+     padding: 20px;
+     border-radius: 4px;
+     margin-top: 50px;
+   }
+   .form-container:hover{
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.5);
+   }
+   
+   .input-with-icon {
+     position: relative;
+   }
+   
+   .input-with-icon span {
+     position: absolute;
+     top: 50%;
+     right: 10px;
+     transform: translateY(-50%);
+     
+   
+   }
+   
+   .input-with-icon input {
+     padding-left: 8px; 
+   }
+   
+   .suggestion{
+     font-size: 12px;
+     color: blue;
+     font-family: Arial, Helvetica, sans-serif;
+   }
+   .suggestion:hover{
+     color: cornflowerblue;
+     text-decoration: underline;
+   }
+   
+   .user{
+     font-size: 15px;
+     text-align: center;
+     color: blue;
+     font-family: Arial, Helvetica, sans-serif;
+   }
+   .user:hover{
+     color: cornflowerblue;
+     text-decoration: underline;
+   }
+   .signup-icon{
+    display: flex;
+    justify-content: center;
+    color: blue;
+
+   }
